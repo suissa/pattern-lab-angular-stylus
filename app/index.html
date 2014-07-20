@@ -16,14 +16,10 @@
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-  <h1 class="logo"><span class="atom-logo"></span> Stylus Pattern Lab</h1>
-  <ul class="menu">
-    <li><a href="#/atoms">Atoms</a></li>
-    <li><a href="#/molecules">Molecules</a></li>
-    <li><a href="#/organisms">Organisms</a></li>
-    <li><a href="#/templates">Templates</a></li>
-    <li><a href="#/pages">Pages</a></li>
-  </ul>
+  <h1 class="logo">
+    <span class="atom-logo"></span> Stylus Pattern Lab
+  </h1>
+  <div data-ng-include data-src="'views/menu.html'"></div>
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -37,6 +33,7 @@
   -->
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-load/angular-load.js"></script>
   <script src="js/app.js"></script>
   <script src="js/atoms.js"></script>
   <script src="js/services.js"></script>
