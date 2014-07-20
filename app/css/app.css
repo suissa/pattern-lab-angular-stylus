@@ -1,0 +1,66 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.logo {
+  font-size: 5rem;
+  display: inline-block;
+  padding-left: 6rem;
+  text-transform: lowercase;
+  position: relative;
+  line-height: 1;
+  margin: 0;
+
+}
+.logo .atom-logo {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  z-index: 1;
+}
+.atom-logo {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 auto;
+  background: url(/app/assets/icon-atom.svg) no-repeat;
+  background-size: 100% 100%;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+
