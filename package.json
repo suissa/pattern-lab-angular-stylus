@@ -16,7 +16,7 @@
   "scripts": {
     "postinstall": "bower install",
 
-    "prestart": "npm install",
+    "prestart": "npm install && stylus -w app/stylus/main.styl -o app/css",
     "start": "http-server -a localhost -p 8000",
 
     "pretest": "npm install",

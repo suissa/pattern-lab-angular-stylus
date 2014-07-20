@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import "reset.css";
+.atom-input-login {
+  display: inline-block;
+  width: 100%;
+  clear: both;
+  float: left;
+  padding: 4px;
+  color: #000;
+}
+.atom-button {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  min-width: 30%;
+  height: 80px;
+  color: #000;
+  font-weight: bold;
+  background: #ccc;
+  border: 0;
+}
+.atom-button-login-facebook {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  min-width: 30%;
+  height: 80px;
+  color: #000;
+  font-weight: bold;
+  background: #18249c;
+  border: 0;
+}
+.atom-button-login-twitter {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  min-width: 30%;
+  height: 80px;
+  color: #000;
+  font-weight: bold;
+  background: #00a5c9;
+  border: 0;
+}
+.atom-button-login-plus {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  min-width: 30%;
+  height: 80px;
+  color: #000;
+  font-weight: bold;
+  background: #c2000a;
+  border: 0;
+}
+.organism-social-login-buttons-wrapper {
+  width: 30%;
+}
+.organism-social-login-buttons-wrapper .atom {
+  width: 33.3%;
+  min-width: 33.3%;
+  height: 60px;
+}
