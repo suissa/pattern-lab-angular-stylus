@@ -1,4 +1,9 @@
 /* app css stylesheet */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 
 .menu {
   list-style: none;
@@ -59,7 +64,10 @@
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-
+.element-group {
+  margin-bottom: 40px;
+  /*border-bottom: 2px dashed #666;*/
+}
 
 
 
